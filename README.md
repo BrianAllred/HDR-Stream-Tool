@@ -1,13 +1,6 @@
+<h1 align="center">HDR Stream Tool</h1>
 
-<p align="center">
-
-  <img src="https://github.com/ilikepizza107/Project-Plus-Stream-Tool/blob/master/Preview.png" alt="Preview">
-  
-</p>
-
-<h1 align="center">Project+ Stream Tool</h1>
-
-So you want to do a Project+ stream, huh? Well, today is your lucky day, because Readek and I have done tons of work so you don’t have to! With this tool, you will be able to set up a Project+ tournament stream in no time.
+So you want to do an HDR stream, huh? Well, today is your lucky day, because Readek, ilikepizza107, and I have done tons of work so you don’t have to! With this tool, you will be able to set up an HDR tournament stream in no time.
 
 ---
 
@@ -15,8 +8,7 @@ So you want to do a Project+ stream, huh? Well, today is your lucky day, because
 - [Easy and fast setup](https://file.garden/Zf2bnkmk1CN8FNMM/Setup.mp4) using a browser source. Drag and drop!
 - [Handy interface](https://file.garden/Zf2bnkmk1CN8FNMM/GUIDemo.mp4) to quickly change everything you need, like player names, pronouns, characters, scores, round, casters...
   - With customizable **Player and Commentator Presets** to setup your match in no time!
-- Every single character and skin the game has to offer is supported (more than 600 different skins!).
-- A [16:9](https://raw.githubusercontent.com/ilikepizza107/Project-Plus-Stream-Tool/master/Git%20Images/16-9.png) and [4:3](https://raw.githubusercontent.com/ilikepizza107/Project-Plus-Stream-Tool/master/Git%20Images/4-3.png) overlay!
+- Every single character and skin the game has to offer is supported.
 - A "[VS Screen](https://file.garden/Zf2bnkmk1CN8FNMM/VSDemo.mp4)" to be displayed when waiting for the next game.
 - A [Bracket View](https://raw.githubusercontent.com/ilikepizza107/Project-Plus-Stream-Tool/master/Git%20Images/BracketPreview.png) to showcase your tournament's top 8 positions!
 - A [Remote GUI](https://raw.githubusercontent.com/ilikepizza107/Project-Plus-Stream-Tool/master/Git%20Images/RemoteGUI.png) that can be accessed by any device within the local network, including mobile devices!
@@ -27,12 +19,12 @@ So you want to do a Project+ stream, huh? Well, today is your lucky day, because
 
 ## How to setup
 These are instructions for **OBS Studio**:
-- Get the [latest release](https://github.com/ilikepizza107/Project-Plus-Stream-Tool/releases).
+- Get the [latest release](https://github.com/BrianAllred/HDR-Stream-Tool/releases).
 - Extract somewhere.
-- Drag and drop `16.9 Scoreboard.html` or `4.3 Scoreboard.html` into OBS, or add a new browser source in OBS pointing at the local file.
+- Drag and drop `16.9 Scoreboard.html` into OBS, or add a new browser source in OBS pointing at the local file.
   - If the source looks weird, manually set the source's properties to 1920 width and 1080 height, or set your OBS canvas resolution to 1080p, or make the source fit the screen (Ctrl+F).
 - In the source's properties, change *Use custom frame rate* -> `60` (if streaming at 60fps of course).
-- Manage it all with the `Project+ Stream Tool` executable (or project-st-gui.app if you are on Mac).
+- Manage it all with the `HDR Stream Tool` executable (or hdr-st-gui.app if you are on Mac).
 
 Repeat from the 3rd step to add the `VS Screen.html` and `Bracket.html` views, though I recommend you to do so on another scene.
 
@@ -67,4 +59,4 @@ The Stream Tool GUI can be controlled remotely by any device within the local ne
 ---
 
 ## Other stuff...
-Do you want to customize something? Do you need some OBS tips and tricks for a Project+ stream? **Please, go to Readek's [wiki](https://github.com/Readek/RoA-Stream-Control/wiki)**!
+Do you want to customize something? Do you need some OBS tips and tricks for an HDR stream? **Please, go to Readek's [wiki](https://github.com/Readek/RoA-Stream-Control/wiki)**!
